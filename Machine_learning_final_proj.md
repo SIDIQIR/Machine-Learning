@@ -292,15 +292,3 @@ rf_ConfMat1$overall[1]
     ## 0.9932708
 
 Accuracy equals to 99.32% on 60 trees which runs faster and give decent accuracy.
-
-Final prediction on the 20 test cases
-=====================================
-
-``` r
-finalpredict <- predict(rf_mod, newtesting1)
-finalpredict
-```
-
-    ##  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 
-    ##  B  A  B  A  A  E  D  B  A  A  B  C  B  A  E  E  A  B  B  B 
-    ## Levels: A B C D E
